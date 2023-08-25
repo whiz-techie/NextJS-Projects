@@ -9,5 +9,7 @@ export const getAllTodos = async (): Promise<ITask[]> => {
 }
 
 export const addTodo = async () => {
-    
+    const res = await fetch(`${baseUrl}/tasks`,{
+        
+    })
 }
