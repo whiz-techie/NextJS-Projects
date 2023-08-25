@@ -7,3 +7,7 @@ export const getAllTodos = async (): Promise<ITask[]> => {
     const todos = await res.json()
     return todos
 }
+
+export const addTodo = async () => {
+    
+}
